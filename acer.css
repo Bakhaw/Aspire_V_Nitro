@@ -84,7 +84,13 @@ h2 {
   padding-bottom: 30px;
 }
 
-.block4 iframe {}
+.block4 div, img {
+  border: 1px solid black;
+}
+
+.block4 iframe {
+  padding-left: 10px;
+}
 
 .block4-1 {
   display: flex;
