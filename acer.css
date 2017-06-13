@@ -19,39 +19,44 @@ h2 {
 
 .block1 {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 50px;
-  background-color: #FFFFFF;
+  align-items: center;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
-.block1-1 ul {
-  display: flex;
-  padding-right: 200px;
-}
-
-.block1-1 li {
-  display: flex;
-  justify-content: space-around;
-  padding-right: 50px;
-}
-
-.block1 a {
-  text-decoration: none;
+.block1 * {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.4);
 }
 
+.block1-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.block1-1 div, a {
+  padding-right: 50px;
+}
+
 .block1-2 a {
   padding-right: 30px;
+  font-size: 14px;
+}
+
+.block1-1 button {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.4);
+  border: none;
 }
 
 .block2 {
   background-color: #D9EDC7;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .block2 a {
@@ -160,6 +165,7 @@ h2 {
   list-style-type: none;
   line-height: 30px;
 }
+
 .about p {
   color: rgba(255, 255, 255, 0.5);
 }
@@ -167,9 +173,11 @@ h2 {
 .subscribe h4 {
   padding-top: 40%;
 }
+
 .subscribe p {
   padding-top: 20px;
 }
+
 .block10 {
   background-color: #202020;
   display: flex;
