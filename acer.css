@@ -84,10 +84,6 @@ h2 {
   padding-bottom: 30px;
 }
 
-.block4 div, img {
-  border: 1px solid black;
-}
-
 .block4 iframe {
   padding-left: 10px;
 }
@@ -210,9 +206,11 @@ h2 {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.5);
 }
+
 .reseaux {
   display: flex;
 }
+
 .reseaux img {
   padding-top: 70px;
   padding-bottom: 70px;
