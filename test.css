@@ -1,0 +1,29 @@
+.menuBoot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuBoot * {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.menuNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.menuNav div, a {
+  padding-right: 50px;
+}
+.menuRight a {
+  padding-right: 30px;
+  font-size: 14px;
+}
+.menuNav button {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.4);
+  border: none;
+}
